@@ -1,0 +1,64 @@
+/* 💠 Démo IA : Style amélioré */
+#services .service-card.demo-ai {
+    background: linear-gradient(135deg, #559ce3, #0059b3); /* Bleu plus foncé */
+    border-radius: 20px;
+    padding: 40px 30px;
+    color: white;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+#services .service-card.demo-ai h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#services .service-card.demo-ai p {
+    color: #d0eaff;
+    font-size: 1.05rem;
+    margin-bottom: 30px;
+}
+
+#services .service-card.demo-ai input[type="file"] {
+    background-color: #fff;
+    color: #003973;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#services .service-card.demo-ai button {
+    background-color: #ffe600;
+    color: #003973;
+    padding: 12px 24px;
+    font-weight: 700;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#services .service-card.demo-ai button:hover {
+    background-color: #fff;
+    color: #0059b3;
+    transform: scale(1.05);
+}
+
+#services .service-card.demo-ai h4 {
+    color: #ffe600;
+    font-size: 1.3rem;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+#services .service-card.demo-ai p.result {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    min-height: 45px;
+    color: #fff;
+}
